@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-	// Print "Слава Україні!" and "Героям слава!" in turn with a pause per second
+	// Print "Слава Україні!" and "Героям слава!" with a second pause 
 	for {
 		fmt.Println("Слава Україні!")
 		time.Sleep(time.Second)
